@@ -49,14 +49,12 @@ def get_dataloaders(
     train_loader = DataLoader(
         train_dataset,
         batch_size=batch_size,
-        shuffle=True,
-        pin_memory=pin_memory      
+        shuffle=True     
     )
     val_loader = DataLoader(
         val_dataset,
         batch_size=batch_size,
-        shuffle=False,
-        pin_memory=pin_memory
+        shuffle=False
     )
 
     return train_loader, val_loader

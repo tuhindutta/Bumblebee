@@ -1,3 +1,4 @@
+import os
 from .estimate_loss import estimate_loss
 from .adam_optimizer import AdamW
 from .save_checkpoints import save_checkpoint
@@ -6,6 +7,7 @@ from .save_checkpoints import save_checkpoint
 
 
 def Trainer(model,
+            checkpoint_parent_path:str,
             train_loader,
             val_loader,
             max_iters = 1,
@@ -49,7 +51,7 @@ def Trainer(model,
             optimizer=optimizer,
             epoch=iteration,
             loss=loss.item(),
-            file_path=f"./gpt_checkpoints/checkpoint_{iteration}.pth"
+            file_path=os.path.join(checkpoint_parent_path, f"checkpoint_{iteration}.pth")
         )
 
     return model, train_losses, val_losses
