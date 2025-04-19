@@ -1,10 +1,7 @@
 import os
 import torch
 from .estimate_loss import estimate_loss
-# from .adam_optimizer import AdamW
 from .save_checkpoints import save_checkpoint
-
-
 
 
 def Trainer(model,
@@ -15,8 +12,7 @@ def Trainer(model,
             val_loader,
             max_iters=1,
             eval_interval=100,
-            eval_iters=200,
-            learning_rate=3e-4):
+            eval_iters=200):
 
     train_losses = []
     val_losses = []
