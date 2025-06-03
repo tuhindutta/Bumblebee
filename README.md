@@ -72,7 +72,7 @@ bumblebee/
    source env/bin/activate
    ```
 3. Install Dependencies:
-     - 📝 Currently, there is no requirements.txt. Dependencies will be added as the project progresses.
+     - Currently, there is no requirements.txt. Dependencies will be added as the project progresses.
      - Explore Modules: Navigate through the minbpe_tokenizer, model, and trainer directories to understand the current implementations.
 
 ## 🧪 Example Usage
