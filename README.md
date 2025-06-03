@@ -83,3 +83,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## 🌟 Acknowledgments
 Special thanks to the open-source community and contributors who inspire and support the development of tools like Bumblebee.
+
+This project is heavily inspired by the works and teachings of [Andrej Karpathy](https://karpathy.ai/). His open-source contributions, especially the minGPT and nanoGPT repositories, have served as foundational references for the modeling and training aspects of this package.
+
+Thank you for making cutting-edge deep learning accessible and educational for everyone in the AI community.
