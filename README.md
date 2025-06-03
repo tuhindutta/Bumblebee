@@ -25,7 +25,7 @@ Bumblebee is currently in its early development stages. While the foundational m
   <tbody>
     <tr>
       <td>Language</td>
-      <td>Python 3.10</td>
+      <td>Python</td>
     </tr>
     <tr>
       <td>Modeling</td>
